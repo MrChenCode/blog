@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3707d19a-4f3d-42c6-ac48-a1a83714716d" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="3707d19a-4f3d-42c6-ac48-a1a83714716d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/tag.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routers/router.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/app.ini" beforeDir="false" afterPath="$PROJECT_DIR$/conf/app.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models.go" beforeDir="false" afterPath="$PROJECT_DIR$/models/models.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qa.go" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +24,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" path="D:\Go" />
+  <component name="GOROOT" path="/usr/local/go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -24,33 +33,25 @@
   </component>
   <component name="ProjectId" id="1rA0X6dQ9t5mDiCelNXcWGY37Dp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tap-plot-logic-server" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
     <property name="settings.editor.selected.configurable" value="go.vgo" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Go Build.go build github.com/MrChenCode/blog">
     <configuration name="go build github.com/MrChenCode/blog" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-gin-example" />
       <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/qa.go" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
       <package value="github.com/MrChenCode/blog" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
@@ -72,8 +73,9 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -85,9 +87,57 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
+    <environment>
+      <map>
+        <entry key="GOPROXY" value="https://goproxy.cn" />
+      </map>
+    </environment>
     <proxy>https://goproxy.cn</proxy>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2115" y="280" key="#Notifications" timestamp="1618820425987">
+      <screen x="1440" y="-60" width="1920" height="1016" />
+    </state>
+    <state x="2115" y="280" key="#Notifications/0.23.1440.877/1440.-60.1920.1016@1440.-60.1920.1016" timestamp="1618820425987" />
+    <state width="1878" height="197" key="GridCell.Tab.0.bottom" timestamp="1619002562325">
+      <screen x="1440" y="-60" width="1920" height="1016" />
+    </state>
+    <state width="1878" height="197" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.-60.1920.1016@1440.-60.1920.1016" timestamp="1619002562325" />
+    <state width="1878" height="197" key="GridCell.Tab.0.center" timestamp="1619002562324">
+      <screen x="1440" y="-60" width="1920" height="1016" />
+    </state>
+    <state width="1878" height="197" key="GridCell.Tab.0.center/0.23.1440.877/1440.-60.1920.1016@1440.-60.1920.1016" timestamp="1619002562324" />
+    <state width="1878" height="197" key="GridCell.Tab.0.left" timestamp="1619002562324">
+      <screen x="1440" y="-60" width="1920" height="1016" />
+    </state>
+    <state width="1878" height="197" key="GridCell.Tab.0.left/0.23.1440.877/1440.-60.1920.1016@1440.-60.1920.1016" timestamp="1619002562324" />
+    <state width="1878" height="197" key="GridCell.Tab.0.right" timestamp="1619002562325">
+      <screen x="1440" y="-60" width="1920" height="1016" />
+    </state>
+    <state width="1878" height="197" key="GridCell.Tab.0.right/0.23.1440.877/1440.-60.1920.1016@1440.-60.1920.1016" timestamp="1619002562325" />
+    <state width="1878" height="197" key="GridCell.Tab.1.bottom" timestamp="1619002562327">
+      <screen x="1440" y="-60" width="1920" height="1016" />
+    </state>
+    <state width="1878" height="197" key="GridCell.Tab.1.bottom/0.23.1440.877/1440.-60.1920.1016@1440.-60.1920.1016" timestamp="1619002562327" />
+    <state width="1878" height="197" key="GridCell.Tab.1.center" timestamp="1619002562326">
+      <screen x="1440" y="-60" width="1920" height="1016" />
+    </state>
+    <state width="1878" height="197" key="GridCell.Tab.1.center/0.23.1440.877/1440.-60.1920.1016@1440.-60.1920.1016" timestamp="1619002562326" />
+    <state width="1878" height="197" key="GridCell.Tab.1.left" timestamp="1619002562326">
+      <screen x="1440" y="-60" width="1920" height="1016" />
+    </state>
+    <state width="1878" height="197" key="GridCell.Tab.1.left/0.23.1440.877/1440.-60.1920.1016@1440.-60.1920.1016" timestamp="1619002562326" />
+    <state width="1878" height="197" key="GridCell.Tab.1.right" timestamp="1619002562326">
+      <screen x="1440" y="-60" width="1920" height="1016" />
+    </state>
+    <state width="1878" height="197" key="GridCell.Tab.1.right/0.23.1440.877/1440.-60.1920.1016@1440.-60.1920.1016" timestamp="1619002562326" />
+    <state x="1901" y="87" key="SettingsEditor" timestamp="1619002561168">
+      <screen x="1440" y="-60" width="1920" height="1016" />
+    </state>
+    <state x="1901" y="87" key="SettingsEditor/0.23.1440.877/1440.-60.1920.1016@1440.-60.1920.1016" timestamp="1619002561168" />
   </component>
 </project>
